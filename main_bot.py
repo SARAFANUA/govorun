@@ -44,7 +44,7 @@ async def main():
     # Реєстрація роутерів
     dp.include_router(common_handlers.router)
     dp.include_router(settings_handlers.router)
-    dp.include_router(pdf_handler.router) # <--- Переконайтесь, що тут pdf_handler.router
+    dp.include_router(pdf_handler.router) 
     dp.include_router(voice_audio_handler.router)
     dp.include_router(text_input_handler.router)
     

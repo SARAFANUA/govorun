@@ -15,7 +15,7 @@ def _clean_summary_text(text: str) -> str:
     """
     Видаляє рекламний блок, що починається з "--- Sponsor" (з урахуванням пробілів та регістру).
     """
-    pattern = r"\s*---\s**Sponsor.**"
+    pattern = r"\s*---\s*Sponsor\..*"
     cleaned_text = re.sub(pattern, "", text, flags=re.DOTALL | re.IGNORECASE)
     return cleaned_text.strip()
 
