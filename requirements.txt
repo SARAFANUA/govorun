@@ -1,0 +1,9 @@
+aiogram
+python-dotenv
+torch
+openai-whisper
+g4f
+pydub
+PyMuPDF
+pypdf
+python-docx
